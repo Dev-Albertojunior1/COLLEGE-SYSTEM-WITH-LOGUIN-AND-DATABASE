@@ -1,0 +1,20 @@
+.login-logo{
+
+    
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+  
+
+#logoimage{
+    height: 180px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(250, 201, 35);
+    border-radius: 14px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}

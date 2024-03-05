@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+   
+    background: url('Imagens/anu.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5%;
+    overflow: hidden;
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    
+}
+
+.J li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hom{
+
+    background-color: #ffb302;
+    
+    justify-content: center;
+    text-align: center;
+   padding-top: 15px;
+   height: 150%;
+   width: 80px;
+    
+    
+}
+
+.cor{
+
+    height: 70%;
+    
+}
+
+.Faculty{
+
+    width: 110px;
+    margin-top: 15px;
+    
+}
+
+.Student{
+    width: 110px;
+    margin-top: 15px;
+   
+}
+
+.Contact{
+    margin-top: 15px;
+   
+}
+
+
+.cabecalho-link{
+    display: flex;
+    gap: 3rem;
+    width: 300;
+    cursor: pointer;
+    justify-content: left;
+    text-align: left;
+    margin-right: 75%;
+    margin-bottom: 15px;
+    border-color: black;
+   justify-content: center;
+   text-align: center;
+}
+
+.cabecalho-link a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.cabecalho-link a:hover{
+    color: #e7c82d;
+    transition: 0.3s all;
+}
+
+
+.wrapper{
+    display: flex;
+    width: 350px;
+    background: transparent;
+    background-color: rgb(255, 255, 204);
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: none;
+    outline: none;
+    border: 3px solid rgba(250, 201, 35);
+    border-radius: 14px;
+    width: 20%;
+    height: 550px;
+
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    color: rgb(0, 0, 0);
+    
+}
+
+.input-box input{
+    
+    width: 80%;
+    height: 50%;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #474444;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    
+}
+
+.wrapper remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -10px 0 1px;
+    border-radius: 10px;
+    padding: 30px 40px ;
+    
+
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+    margin-bottom: 7%;
+    
+}
+
+.remember-forgot a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+
+.forg{
+    padding-left: 5px;
+    
+}
+
+.rem{
+    font-size: 15px;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #ef3636;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+
+
+.wrapper .btn:hover{
+    background-color: #e7c82d;
+    color: #e7c82d;
+    transition: 0.3s all;
+    color: black;
+}
+
+.wrapper .register-link{
+
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+
+.register-link p a {
+
+     color: #de5353;
+     text-decoration: none;
+     font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+.login-logo{
+
+    
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+  
+
+#logoimage{
+    height: 180px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(250, 201, 35);
+    border-radius: 14px;
+    margin-top: 40px;
+}
+
+.corbtn{
+
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
